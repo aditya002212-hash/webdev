@@ -1,0 +1,7 @@
+.search-bar{display: block;}
+.video-cont{width:300px;
+           height: auto;}
+.thumbnail{width: 300px;
+    object-fit: contain;
+
+}
