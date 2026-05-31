@@ -1,7 +1,20 @@
 .search-bar{display: block;}
+
+
 .video-cont{width:300px;
            height: auto;}
-.thumbnail{width: 300px;
-    object-fit: contain;
 
+
+.thumbnail{width: 300px;
+    object-fit: contain;}
+
+.video-title{ display:inline-block;
+              width:250px;
+              margin-bottom:0px;
 }
+
+
+
+.channel-image{width: 36px;
+               object-fit:contain;
+               border-radius:18px;}
