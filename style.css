@@ -8,12 +8,21 @@
 .thumbnail{width: 300px;
     object-fit: contain;}
 
+
 .video-title{ display:inline-block;
               width:250px;
-              margin-bottom:0px;
-}
+              margin:0px;}
 
 
+.ci-cont{display:inline-block
+          }
+
+.info-cont{display:inline-block}
+
+
+.channel-name{margin:0px}
+
+.views-count{margin:0px}
 
 .channel-image{width: 36px;
                object-fit:contain;
