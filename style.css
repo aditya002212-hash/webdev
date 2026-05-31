@@ -3,12 +3,23 @@ p{margin:0px}
 .search-bar{display: block;
 width:auto}
 
-.video-cont{width:300px;
+.video-cont{display:inline-block;
+           width:300px;
            height: auto;
-           margin-top:10px;}
+           margin-top:10px;
+           vertical-align: top;
+           }
+
+.video-cont:hover{ border-radius: 20px;
+                  box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.494);
+                  cursor: pointer;;
+
+}
+
 
 .thumbnail{width: 300px;
     object-fit: contain;}
+.thumbnail:hover{border-radius:20px;}
 
 .video-title{ display:inline-block;
               width:250px;
