@@ -3,11 +3,12 @@ p{margin:0px}
 .search-bar{display: block;
 width:auto}
 
+.page-cont{display:grid;
+           grid-template-columns: 1fr 1fr 1fr;
+           column-gap: 15px; 
+           row-gap: 15px;}
 .video-cont{display:inline-block;
-           width:300px;
            height: auto;
-           margin-top:10px;
-           margin-left:5px;
            vertical-align: top;
            }
 
@@ -18,7 +19,7 @@ width:auto}
 }
 
 
-.thumbnail{width: 300px;
+.thumbnail{width:100%;
     object-fit: contain;}
 .thumbnail:hover{border-radius:20px;}
 
