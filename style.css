@@ -23,8 +23,7 @@ width:auto}
 .video-cont{display:flex
            }
 
-.video-title{ display:inline-block;
-              width:250px;
+.video-title{ display:block;
               margin:0px;
               color: rgb(0, 0, 0);
               font-size: 15px;
@@ -35,10 +34,10 @@ width:auto}
 .ci-cont{display:inline-block;
          flex:1;
          vertical-align: top;
-         margin-right:6px;}
+         margin-right:2px;}
 
 .info-cont{display:inline-block;
-           flex:2;}
+           flex:7;}
 
 .channel-name{margin:0px;
              color:rgb(92, 91, 91);
