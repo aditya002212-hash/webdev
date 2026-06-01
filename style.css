@@ -4,38 +4,41 @@ p{margin:0px}
 width:auto}
 
 .page-cont{display:grid;
-           grid-template-columns: 1fr 1fr 1fr;
-           column-gap: 15px; 
-           row-gap: 15px;}
-.video-cont{display:inline-block;
-           height: auto;
-           vertical-align: top;
-           }
+           grid-template-columns: 1fr 1fr 1fr ;
+           row-gap: 40px;
+           column-gap: 20px;
+           justify-content: center;}
+.thumb-cont{display:inline-block;
+           height: auto; }
 
-.video-cont:hover{ border-radius: 20px;
+.thumb-cont:hover{ border-radius: 20px;
                   box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.494);
-                  cursor: pointer;;
-
-}
+                  cursor: pointer;}
 
 
 .thumbnail{width:100%;
     object-fit: contain;}
 .thumbnail:hover{border-radius:20px;}
 
+.video-cont{display:flex
+           }
+
 .video-title{ display:inline-block;
               width:250px;
               margin:0px;
+              color: rgb(0, 0, 0);
               font-size: 15px;
               font-family:Arial, Helvetica, sans-serif;
-              font-weight:500;
+              font-weight:600;
               margin-bottom:8px}
 
 .ci-cont{display:inline-block;
+         flex:1;
          vertical-align: top;
          margin-right:6px;}
 
-.info-cont{display:inline-block;}
+.info-cont{display:inline-block;
+           flex:2;}
 
 .channel-name{margin:0px;
              color:rgb(92, 91, 91);
