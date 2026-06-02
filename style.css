@@ -20,7 +20,9 @@ width:auto}
     object-fit: contain;}
 .thumbnail:hover{border-radius:20px;}
 
-.video-cont{display:flex
+.video-cont{display:grid;
+            grid-template-columns: 1fr 7fr;
+            align-items: top;
            }
 
 .video-title{ display:block;
@@ -31,22 +33,14 @@ width:auto}
               font-weight:600;
               margin-bottom:8px}
 
-.ci-cont{display:inline-block;
-         flex:1;
-         vertical-align: top;
-         margin-right:2px;}
-
-.info-cont{display:inline-block;
-           flex:7;}
-
 .channel-name{margin:0px;
-             color:rgb(92, 91, 91);
+             color:rgb(54, 54, 54);
              font-family:Arial, Helvetica, sans-serif;
             font-size:12px;
             margin-bottom:4px;}
 
 .views-count{color:rgb(92, 91, 91)}
 
-.channel-image{width: 38px;
+.channel-image{width: 46px;
                object-fit:contain;
-               border-radius:18px;}
+               border-radius:23px;}
