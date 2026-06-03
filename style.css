@@ -1,9 +1,14 @@
 p{margin:0px}
+body{margin:0px}
 
-.search-bar{display: block;
-width:auto}
-
+.header{display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        }
+.search-bar{border-radius: 20px;
+            width:80%}
 .page-cont{display:grid;
+           margin-top: 20px;
            grid-template-columns: 1fr 1fr 1fr ;
            row-gap: 40px;
            column-gap: 20px;
