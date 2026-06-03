@@ -1,10 +1,18 @@
 p{margin:0px}
-body{margin:0px}
+body{margin:0px;
+     margin-top:80px;
+    margin-bottom: 800px;}
 
 .header{display:flex;
         flex-direction: row;
         justify-content: space-between;
-        }
+        background-color: aqua;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height:60px;
+       }
 .search-bar{border-radius: 20px;
             width:80%}
 .page-cont{display:grid;
