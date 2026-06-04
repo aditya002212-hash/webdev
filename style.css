@@ -25,8 +25,8 @@ body{margin:0px;
 .search-bar{border-radius: 2px;
             border-color: grey;
             border-style: solid;
-            width:100px;
-            height:30px;
+            
+            height:35px;
             width:65%;
           flex-shrink:-1;
           }
