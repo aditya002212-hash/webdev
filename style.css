@@ -25,11 +25,12 @@ body{margin:0px;
 .search-bar{border-radius: 2px;
             border-color: grey;
             border-style: solid;
-            
+            box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.1);
             height:35px;
             width:65%;
           flex-shrink:-1;
           }
+.search-bar::placeholder{font-size:16px}
 .page-cont{display:grid;
            margin-top: 20px;
            grid-template-columns: 1fr 1fr 1fr ;
