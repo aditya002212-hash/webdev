@@ -1,8 +1,7 @@
 p{margin:0px}
-body{margin:0px;
-     margin-top:70px;
-    margin-bottom: 800px;
+body{margin: 0px 0px 1000px 0px;
     background-color: rgb(248,248,248);
+    font-family: Arial, Helvetica, sans-serif;
     }
 
 .header{display:flex;
@@ -12,35 +11,33 @@ body{margin:0px;
         top: 0;
         left: 0;
         right: 0;
-        height:90px;
+        height:70px;
         background-color: white;
-        border-width:2px;
         z-index:2;
-
        }
 
 .sidebar{padding-top: 20px;
         position: fixed;
-        top:80px;
+        top:70px;
         bottom: 0;
-        width:100px;
+        width:70px;
         background-color: white;
 }
-.side-element{width:40px;
-              height: 60px;
+.side-element{width:20px;
+              height: 30px;
               display:flex;
               flex-direction: column;
               align-items: center;
               justify-content: center;
-              padding: 30px;}
+              padding: 10px;
+              margin-bottom: 20px;
+              margin-left: 10px;
+              }
 
-.side-element img{border-radius:10px;
-                  margin-bottom: 10px;
-                }
-.side-element div{ font-family: Arial, Helvetica, sans-serif;
-                   font-size:16px;
-                   font-weight: 400;
-                   }
+.side-element img{margin-bottom: 5px;}
+
+.side-element div{ font-size:10px;
+                   font-weight: 500;}
 
 
 .side-element:hover{background-color:lightgrey;
@@ -48,50 +45,48 @@ body{margin:0px;
 .search-bar{border-color: grey;
             border-style: solid;
             box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.1);
-            height:45px;
-            width:65%;
-            margin-left:40px;
-          flex-shrink:-1;
-          border-bottom-left-radius: 22px; 
-          border-top-left-radius: 22px;
-          border-width: 2px;
-          font-size:22px;
+            height:30px;
+            width: 60%;
+            flex-shrink:-1;
+            border-width: 2px;
+            font-size:15px;
+            border-top-left-radius:22px ;
+            border-bottom-left-radius: 22px ;
           }
-.search-bar::placeholder{font-size:22px;
-                         padding-left:14px;
+.search-bar::placeholder{font-size: 15px;
+                         padding-left:10px;
                         }
+.profile{ width:30px ; height : 30px ; margin-right:20px}
 .page-cont{display:grid;
-           margin-top: 80px;
            grid-template-columns: 1fr 1fr 1fr ;
            row-gap: 40px;
            column-gap: 20px;
            justify-content: center;
-           margin-left:140px;
-           padding-top:60px;
-           padding-left:10px;
-          padding-right:20px}
-.thumb-cont{display:inline-block;
-           height: auto; }
+           margin: 60px 0px 0px 80px;
+           padding: 30px 10px 0px 20px}
 
-.thumb-cont:hover{ border-radius: 20px;
+.thumb-cont{display:inline-block;
+            position: relative;
+            height: auto; }
+
+.thumb-cont:hover{ 
                   box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.494);
                   cursor: pointer;}
 
 
 .thumbnail{width:100%;
     object-fit: contain;}
-.thumbnail:hover{border-top-left-radius:20px;
-                 border-top-right-radius: 20px;}
+
 .time{
-     position:relative;
+     position:absolute;
      background-color:black;
-     bottom:35px;
-     left:355px;
-     width:14%;
+     bottom:125px;
+     left: 230px;
+     width:auto;
      color:white;
-    font-size:22px;
-    padding-left:8px;
-    font-family: Arial, Helvetica, sans-serif;}
+    font-size:10px;
+    padding: 5px 3px 5px 3px;
+    }
     
 
 .video-cont{display:grid;
@@ -102,25 +97,23 @@ body{margin:0px;
 .video-title{ display:block;
               margin:0px;
               color: rgb(0, 0, 0);
-              font-size: 22px;
-              font-family:Arial, Helvetica, sans-serif;
+              font-size: 18px;
               font-weight:600;
-              margin-bottom:8px;
+              margin-bottom:14px;
               padding-left:5px}
 
 .channel-name{margin:0px;
              color:rgb(54, 54, 54);
-             font-family:Arial, Helvetica, sans-serif;
-            font-size:18px;
-            margin-bottom:4px;
+            font-size:14px;
+            margin-bottom:7px;
             padding-left:5px}
 
 .views-count{color:rgb(92, 91, 91);
-             font-size:18px;
-             font-family: Arial, Helvetica, sans-serif;
+             font-size:14px;
              padding-left:5px;
             }
 
-.channel-image{width: 56px;
+.channel-image{width: 40px;
                object-fit:contain;
-               border-radius:28px;}
+               border-radius:20px;}
+
