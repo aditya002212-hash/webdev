@@ -1,0 +1,6 @@
+@media(max-width:1099px) and (min-width:600px) {
+.page-cont{ grid-template-columns: 1fr 1fr;}
+}
+@media(min-width:599px) {
+.page-cont{grid-template-columns: 1fr;}
+}
