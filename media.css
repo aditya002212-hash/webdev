@@ -1,6 +1,18 @@
+@media(max-width:600px) {
+.page-cont{grid-template-columns: 1fr;
+column-gap: 0px;
+row-gap: 40px;}
+
+}
+
+
 @media(max-width:1100px) and (min-width:601px) {
 .page-cont{ grid-template-columns: 1fr 1fr;}
+
+.header{height:100px
 }
-@media(max-width:600px) {
-.page-cont{grid-template-columns: 1fr;}
+}
+
+@media(min-width:1101px){
+    .header{ height:120px}
 }
