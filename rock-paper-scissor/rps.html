@@ -9,12 +9,13 @@
             <h1>Rock-Paper-Scissor</h1>
         </div>
         <div class="main">
-        <button class="button">ROCK</button>
-        <button class="button">PAPER</button>
-        <button class="button">SCISSOR</button>
-        <p>Hello let's play</p>
-        <button class="button">Reset Score</button> 
+        <button class="button" onclick="playGame('Rock')">ROCK</button>
+        <button class="button" onclick="playGame('Paper')">PAPER</button>
+        <button class="button" onclick="playGame('Scissor')">SCISSOR</button>
+        <p class="js-score">Hello let's play</p>
+        <button class="button" onclick="resetScore()">Reset Score</button> 
         <button class="button">AutoPlay</button>
         </div>
     </body>
+    <script src="rps.js"></script>
 </html>
